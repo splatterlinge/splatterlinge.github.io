@@ -6,41 +6,49 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <!-- WebFont -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700' rel='stylesheet' type='text/css'>
+        <!-- Bootstrap -->
+        <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-
     </head>
-    <body>
-
+    <body data-spy="scroll" data-target=".navbar">
+      <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
           </div>
-        </div> <!-- /container -->
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav sl-nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.navbar-collapse -->
+        </div>
+      </div>
 
+      {{ content }}
+
+      <div class="container">
+        <footer>
+            <hr />
+            <p>© 2013 - B. Djordjevic, T. Himmer, M. Wydler, K.-H. Zimmermann</p>
+          </footer>
+        </div>
+      </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="//code.jquery.com/jquery.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>

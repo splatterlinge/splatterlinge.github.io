@@ -1,24 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Splatterlinge!"
 date:   2013-08-28 21:47:36
-categories: jekyll update
+categories: update
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+This game is just for fun. Don't take it serious!
 
-Jekyll also offers powerful support for code snippets:
+If you want to play/test the game, just checkout the repository and build it your own. Check out our [GitHub Wiki][build-wiki].
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+[build-wiki]:    https://github.com/splatterlinge/Splatterlinge/wiki/Build-From-Source
