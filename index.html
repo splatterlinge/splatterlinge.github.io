@@ -6,7 +6,7 @@ title: Splatterlinge
 <div class="jumbotron sl-jumbo">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-md-12">
         <h1>Splatterlinge</h1>
         <p>Stranded on a unknown island and fight against giant butterflies. Survive as long as you can!</p>
       </div>
@@ -16,27 +16,27 @@ title: Splatterlinge
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-9">
+    <div class="col-md-9">
       <h2 id="blog">Blog</h2>
     	<dl class="dl-horizontal">
     		{% for post in site.posts %}
-				  <dt>{{ post.date | date_to_string }}</dt>
+				  <dt><small>{{ post.date | date_to_long_string }}</small></dt>
 				  <dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
 			  {% endfor %}
 			</dl>
 			<br />
 			<h2 id="about">About</h2>
-			<p>...</p>
+			<p><a href="https://github.com/splatterlinge/Splatterlinge/wiki">Wiki</a></p>
 			<br />
 			<h2 id="contact">Contact</h2>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <b>Tobias Himmer</b>
           <p>
             GitHub: <a href="https://github.com/zwostein">@zwostein</a>
           </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <b>Michael Wydler</b>
           <p>
             GitHub: <a href="https://github.com/wydler">@wydler</a>
@@ -44,13 +44,13 @@ title: Splatterlinge
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <b>Karl-Heinz Zimmermann</b>
           <p>
             GitHub: <a href="https://github.com/zimmerka">@zimmerka</a>
           </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <b>Branimir Djordjevic</b>
           <p>
             GitHub: <a href="https://github.com/brainjay">@brainjay</a>
@@ -59,7 +59,7 @@ title: Splatterlinge
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3">
       <h2>Download</h2>
       <p>
         <a class="btn btn-primary btn-lg btn-block" href="https://github.com/splatterlinge/Splatterlinge/releases"><span class="glyphicon glyphicon-download"></span> Download Windows</a>

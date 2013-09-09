@@ -15,6 +15,10 @@ h1 {
   text-transform: uppercase;
 }
 
+.sl-navbar {
+  background-color: #fff;
+}
+
 .sl-nav {
   font-weight: 400;
 }
